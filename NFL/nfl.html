@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        .afceast, .afcnorth, .afcsouth, .afcwest{
+            color: red;
+        }
+
+        .nfceast, .nfcnorth, .nfcsouth, .nfcwest{
+            color: blue;
+        }
+
+        .theadrow{
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="afceast">AFC East</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#00338d, #003366) ; color:aliceblue">
+                <td><img style="height: 100px; width: 120px;" src="logos/buf.gif" alt="--BUF--"></td>
+                <td>0</td>  <!--BUF-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#008397, #006675); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/mia.gif" alt="--MIA--"></td>
+                <td>0</td>  <!--MIA-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#002244, #001122); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/ne.gif" alt="--NE--"></td>
+                <td>0</td>  <!--NE-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#203731, #152521); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/nyj.gif" alt="--NYJ--"></td>
+                <td>0</td>  <!--NYJ-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="afcnorth">AFC North</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#241773, #170f4d); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/bal.gif" alt="--BAL--"></td>
+                <td>0</td>  <!--BAL-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#fb4f14, #b83c13); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/cin.gif" alt="--CIN--"></td>
+                <td>0</td>  <!--CIN-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#22150c, #0c0704); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/cle.gif" alt="--CLE--"></td>
+                <td>0</td>  <!--CLE-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#161616, #000000); color: #ffb612">
+                <td><img style="height: 100px; width: 120px;" src="logos/pit.gif" alt="--PIT--"></td>
+                <td>0</td>  <!--PIT-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h2 class="afcsouth">AFC South</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#002244, #001122); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/hou.gif" alt="--HOU--"></td>
+                <td>0</td>  <!--HOU-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#002c5f, #001f42); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/ind.gif" alt="--IND--"></td>
+                <td>0</td>  <!--IND-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#006778, #004e5c); color: #d7a22a">
+                <td><img style="height: 100px; width: 120px;" src="logos/jax.gif" alt="--JAX--"></td>
+                <td>0</td>  <!--JAX-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#4b92db, #3b76b1); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/ten.gif" alt="--TEN--"></td>
+                <td>0</td>  <!--TEN-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="afcwest">AFC West</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#002244, #001122); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/den.gif" alt="--DEN--"></td>
+                <td>0</td>  <!--DEN-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#e31837, #a81128); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/kc.gif" alt="--KC--"></td>
+                <td>0</td>  <!--KC-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#161616, #000000); color: #a5acaf">
+                <td><img style="height: 100px; width: 120px;" src="logos/lv.gif" alt="--LV--"></td>
+                <td>0</td>  <!--LV-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#0073cf, #0059a1); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/lac.gif" alt="--LAC--"></td>
+                <td>0</td>  <!--LAC-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="nfceast">NFC East</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#002244, #001122); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/dal.gif" alt="--DAL--"></td>
+                <td>0</td>  <!--DAL-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#0b2265, #071642); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/nyg.gif" alt="--NYG--"></td>
+                <td>0</td>  <!--NYG-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#004953, #00292e); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/phi.gif" alt="--PHI--"></td>
+                <td>0</td>  <!--PHI-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#773141, #4b1f2a); color: #ffb612">
+                <td><img style="height: 100px; width: 120px;" src="logos/was.gif" alt="--WAS--"></td>
+                <td>0</td>  <!--WAS-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="nfcnorth">NFC North</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#0b162a, #050a13); color: #c83803">
+                <td><img style="height: 100px; width: 120px;" src="logos/chi.gif" alt="--CHI--"></td>
+                <td>0</td>  <!--CHI-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#005a8b, #004368); color: #b0b7bc">
+                <td><img style="height: 100px; width: 120px;" src="logos/det.gif" alt="--DET--"></td>
+                <td>0</td>  <!--DET-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#203731, #111d1a); color: #ffb612">
+                <td><img style="height: 100px; width: 120px;" src="logos/gb.gif" alt="--GB--"></td>
+                <td>0</td>  <!--GB-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#4f2683, #341957); color: #ffc62f">
+                <td><img style="height: 100px; width: 120px;" src="logos/min.gif" alt="--MIN--"></td>
+                <td>0</td>  <!--MIN-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="nfcsouth">NFC South</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#a71930, #771122); color: black">
+                <td><img style="height: 100px; width: 120px;" src="logos/atl.gif" alt="--ATL--"></td>
+                <td>0</td>  <!--ATL-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#0085ca, #00679b); color: black">
+                <td><img style="height: 100px; width: 120px;" src="logos/car.gif" alt="--CAR--"></td>
+                <td>0</td>  <!--CAR-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#9f8958, #776743); color: black">
+                <td><img style="height: 100px; width: 120px;" src="logos/no.gif" alt="--NO--"></td>
+                <td>0</td>  <!--NO-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#34302b, #1a1815); color: #d50a0a">
+                <td><img style="height: 100px; width: 120px;" src="logos/tb.gif" alt="--TB--"></td>
+                <td>0</td>  <!--TB-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="nfcwest">NFC West</h2>
+    <table class="table is-fullwidth">
+        <thead>
+            <tr class="theadrow">
+                <th></th>
+                <th>W</th>
+                <th>L</th>
+                <th>T</th>
+                <th>PCT</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>C PCT</th>
+                <th>PF</th>
+                <th>PA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-image: linear-gradient(#97233f, #6d1a2e); color: white">
+                <td><img style="height: 100px; width: 120px;" src="logos/ari.gif" alt="--ARI--"></td>
+                <td>0</td>  <!--ARI-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#003594, #001f58); color: #ffa300">
+                <td><img style="height: 100px; width: 120px;" src="logos/lar.gif" alt="--LAR--"></td>
+                <td>0</td>  <!--LAR-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#002244, #001122); color: #69be28">
+                <td><img style="height: 100px; width: 120px;" src="logos/sea.gif" alt="--SEA--"></td>
+                <td>0</td>  <!--SEA-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr style="background-image: linear-gradient(#aa0000, #720000); color: #b3995d">
+                <td><img style="height: 100px; width: 120px;" src="logos/sf.gif" alt="--SF--"></td>
+                <td>0</td>  <!--SF-->
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
